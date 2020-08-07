@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/curtain.css">
+        <script src="js/but.js"></script>
+     
+        <style>
+            button {
+                /*display: inline-block;*/
+                height:500px;
+                padding: 0;
+                margin: 0;
+                vertical-align: top;
+                width:500px;
+                text-align: bottom;
+            }
+
+            #cs {
+               background-image: url( 'fire-button.png' );
+               background-repeat: no-repeat;
+               background-attachment: center;
+                background-size: 150px 150px;
+                height: 150px;  
+                width: 150px;
+            }
+            
+
+        </style>
+
+    </head>
+    <body id="body1">
+        <center>
+            <h2>CHRIST(DEEMED TO BE UNIVERSITY)</h2>
+            <h2>School of Engineering and Technology</h2>
+            <h2>Department of Computer Science and Engineering</h2>
+            <h1>ASCII Inaugration</h1>
+            <img id="l1" src="images/lamp_a.png" width="350" length="350">
+            <p><b> Click the button to light the lamp</b></p>
+            <button id ="cs" onclick="document.getElementById('l1').src='images/lamp_b.png'; changeDivImage(); " ><b>Mr. Krishna V</b></button>
+            <button id ="cs" onclick="document.getElementById('l1').src='images/lamp_c.png';changeDiv2Image(); "><b>Dr. Iven Jose</b></button>
+            <button id ="cs" onclick="document.getElementById('l1').src='images/lamp_d.png';changeDiv3Image(); "><b>Dr. Balachandran K</b></button>
+            <button id ="cs" onclick="document.getElementById('l1').src='images/lamp_e.png'; changeDiv3Image(); "><b>ASCII/CSI Coordinators</b></button>
+            <button id ="cs" onclick="document.getElementById('l1').src='images/lamp_f.png';changeDiv5Image();"><b>ASCII/CSI Office bearer</b></button>
+       
+
+        </center>
+        
+    </body>
+</html>
